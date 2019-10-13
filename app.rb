@@ -1,4 +1,4 @@
-class App < Sinatra::Base
+class App
 	get '/hello' do
 		erb :hello
 	end
